@@ -6,7 +6,7 @@ A multiarch PIVX docker image.
 
 ## Tags
 
-- `3.2`, `latest` ([3.2/Dockerfile](https://github.com/crypdex/docker-pivx/blob/master/3.2.0/Dockerfile))
+- `3.2`, `latest` ([3.2/Dockerfile](https://github.com/crypdex/docker-pivx/blob/master/3.2))
   <!-- - `3.1.1`, `3.1` ([3.1/Dockerfile](https://github.com/crypdex/docker-pivx/blob/master/0.15/Dockerfile)) -->
 
 **Picking the right tag**
