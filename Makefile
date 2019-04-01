@@ -1,8 +1,8 @@
 
 VERSION?=
 
-publish:
-	@bash ./scripts/publish.sh
+release: require-version
+	@bash ./scripts/release.sh
 
 require-version:
 ifndef VERSION

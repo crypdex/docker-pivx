@@ -4,7 +4,7 @@ service="pivx"
 
 # Build and push builds for these architectures
 for arch in x86_64 arm64v8; do
-    docker build -f ${VERSION}/Dockerfile.${arch} -t crypdex/${service}:${arch}-latest docker/${service}/.
+    docker build -f ${VERSION}/Dockerfile.${arch} -t crypdex/${service}:${arch}-latest ${VERSION}/.
     docker push crypdex/${service}:${arch}-latest
 done
 
