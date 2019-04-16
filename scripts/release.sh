@@ -8,7 +8,7 @@
 #VERSION=
 SERVICE="pivx"
 ARCH="arm64v8 x86_64"
-ORG=crypdex
+ORG="crypdex"
 
 # Build and push builds for these architectures
 for arch in ${ARCH}; do
