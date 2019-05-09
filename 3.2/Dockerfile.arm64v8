@@ -6,7 +6,7 @@ FROM arm64v8/ubuntu:bionic
 # RUN [ "cross-build-start" ]
 # FROM ubuntu:bionic
 
-ENV VERSION=3.2.0
+ENV VERSION=3.2.2
 # x86_64 || aarch64
 ARG USER=pivx
 

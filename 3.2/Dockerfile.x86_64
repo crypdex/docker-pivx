@@ -1,6 +1,6 @@
 FROM ubuntu:bionic
 
-ARG PIVX_VERSION=3.2.0
+ARG PIVX_VERSION=3.2.2
 ARG USER=pivx
 
 RUN useradd -r $USER \
